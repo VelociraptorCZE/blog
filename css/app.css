@@ -1,0 +1,42 @@
+/* Copyright (c) Simon Raichl 2022 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary: #1168b7;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Segoe UI, sans-serif;
+}
+
+body {
+    margin: 0;
+    border-top: 16px solid #1168b7;
+    color: #1168b7;
+    background-color: #f5f5f5;
+    padding: 0 1rem 1rem;
+}
+
+a {
+    color: #1168b7;
+    transition: .25s;
+}
+
+a:hover {
+    background: #1168b7;
+    color: #fff;
+    padding: .25rem;
+    text-decoration: none;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1280px;
+    padding: 1rem 2rem 2rem;
+    margin: auto;
+    border-radius: 0 0 10px;
+}
